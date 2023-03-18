@@ -1,0 +1,2 @@
+<!--pages/index/getphotopage.wxml-->
+<button type="primary" bindtap="photomode">开始拍照</button>

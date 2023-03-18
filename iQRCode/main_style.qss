@@ -1,0 +1,88 @@
+QLineEdit
+{
+    border: 3pt solid #1e1e1e;
+    border-radius: 8;
+}
+
+QPushButton
+{
+    font: bold 12pt "仿宋";
+    border: 3pt solid #70a19f;
+    background-color:#70a19f;
+    color:white;
+    border-radius: 8;
+
+}
+
+QPushButton:hover
+{
+    background-color: #77ac98;
+}
+
+
+QPushButton:pressed
+{
+    background-color: #508a88;
+}
+
+QLabel
+{
+    border: 3px solid #1e1e1e;
+    border-radius: 8;
+}
+
+QLabel#title_label
+{
+    color: white;
+    font: bold italic 25pt "Arial Black";
+    background-color:#4682B4;
+    border: 3pt solid #4682B4;
+}
+
+QLabel#label_ocrbar
+{
+    color: white;
+    font: bold 12pt "仿宋";
+    background-color:#8E2323;
+    border: 3pt solid #8E2323;
+}
+
+QTextEdit
+{
+    border: 3pt solid #1e1e1e;
+    border-radius: 8;
+}
+
+QProgressBar
+{
+    text-align:center;
+    font-size:12pt;
+    font:bold;
+    color:#d3d7d4;
+    border: 3pt solid #70a19f;
+    border-radius: 8;
+}
+
+QProgressBar::chunk
+{
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:0,stop:0 #70a19f,stop:1 #508a88);
+}
+
+QComboBox
+{
+    font: bold 12pt "仿宋";
+    border: 3pt solid #1e1e1e;
+    border-radius: 8;
+
+}
+
+QComboBox::drop-down
+{
+    width: 40px;
+}
+
+QTextBrowser
+{
+    border: 3px solid #1e1e1e;
+    border-radius: 8;
+}

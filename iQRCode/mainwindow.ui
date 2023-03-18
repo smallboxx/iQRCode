@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>910</width>
+    <height>404</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,1">
+    <item row="0" column="0">
+     <widget class="QLabel" name="title_label">
+      <property name="text">
+       <string>智能编码系统</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QWidget" name="mainwidget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <layout class="QGridLayout" name="gridLayout" columnstretch="0,2,2,0,1,2,0,2,2">
+       <item row="8" column="5">
+        <widget class="QLineEdit" name="pid_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="3">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>58</width>
+           <height>25</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="5">
+        <widget class="QLineEdit" name="size_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="7">
+        <widget class="QPushButton" name="designtag_pushButton">
+         <property name="text">
+          <string>标签设计</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLabel" name="gender_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>性别</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLabel" name="size_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>尺码</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QLineEdit" name="wbkh_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="camname_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>摄像头</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="3">
+        <widget class="QProgressBar" name="ocr_progressBar">
+         <property name="value">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="QLabel" name="zypl_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>主营品类</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="wbkh_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>外部款号</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="5">
+        <widget class="QLineEdit" name="lxhh_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="8">
+        <widget class="QComboBox" name="printer_comboBox"/>
+       </item>
+       <item row="9" column="7">
+        <widget class="QPushButton" name="cnprinter_pushButton">
+         <property name="text">
+          <string>连接N31BT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="4" colspan="2">
+        <widget class="QPushButton" name="uploadimg_pushButton">
+         <property name="text">
+          <string>上传图片</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="5">
+        <widget class="QLineEdit" name="zypl_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="4">
+        <widget class="QLabel" name="lxhh_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>乐销货号</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="wbpm_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>外部品名</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="4" colspan="2">
+        <widget class="QPushButton" name="wx_pushButton">
+         <property name="text">
+          <string>连接微信小程序</string>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="4">
+        <widget class="QLabel" name="gys_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>供应商</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="8">
+        <widget class="QPushButton" name="print_pushButton">
+         <property name="text">
+          <string>打印标签</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="5">
+        <widget class="QLineEdit" name="gender_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="6">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>58</width>
+           <height>25</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="color_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>颜色</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="4">
+        <widget class="QLabel" name="pid_label">
+         <property name="styleSheet">
+          <string notr="true">font: bold &quot;仿宋&quot;;</string>
+         </property>
+         <property name="text">
+          <string>商品ID</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QLineEdit" name="color_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="5">
+        <widget class="QLineEdit" name="gys_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1" colspan="2">
+        <widget class="QComboBox" name="camname_comboBox"/>
+       </item>
+       <item row="0" column="5">
+        <widget class="QLineEdit" name="wbpm_lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" rowspan="9" colspan="2">
+        <widget class="QLabel" name="Cam_label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="7" rowspan="9" colspan="2">
+        <widget class="QLabel" name="tag_label">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" rowspan="8">
+        <widget class="QTextBrowser" name="ocr_textBrowser">
+         <property name="styleSheet">
+          <string notr="true">font:  7pt ;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QLabel" name="label_ocrbar">
+         <property name="text">
+          <string>待识别</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+      <zorder>size_lineEdit</zorder>
+      <zorder>size_label</zorder>
+      <zorder>ocr_progressBar</zorder>
+      <zorder>wbpm_label</zorder>
+      <zorder>color_lineEdit</zorder>
+      <zorder>pid_label</zorder>
+      <zorder>gys_label</zorder>
+      <zorder>gender_label</zorder>
+      <zorder>zypl_lineEdit</zorder>
+      <zorder>zypl_label</zorder>
+      <zorder>designtag_pushButton</zorder>
+      <zorder>lxhh_label</zorder>
+      <zorder>wbkh_label</zorder>
+      <zorder>gender_lineEdit</zorder>
+      <zorder>wx_pushButton</zorder>
+      <zorder>pid_lineEdit</zorder>
+      <zorder>wbkh_lineEdit</zorder>
+      <zorder>uploadimg_pushButton</zorder>
+      <zorder>wbpm_lineEdit</zorder>
+      <zorder>cnprinter_pushButton</zorder>
+      <zorder>gys_lineEdit</zorder>
+      <zorder>camname_label</zorder>
+      <zorder>color_label</zorder>
+      <zorder>lxhh_lineEdit</zorder>
+      <zorder>camname_comboBox</zorder>
+      <zorder>print_pushButton</zorder>
+      <zorder>ocr_textBrowser</zorder>
+      <zorder>Cam_label</zorder>
+      <zorder>printer_comboBox</zorder>
+      <zorder>tag_label</zorder>
+      <zorder>label_ocrbar</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<image style="width:100%;background-color: #eeeeee;" mode="widthFix" src="{{src}}"></image>
+<button type="primary" bindtap="gotoget">拍照</button>
+<image style="width:100%;background-color: #eeeeee;" mode="aspectFit" src="{{pre_src}}"></image>
+<button type="primary" bindtap="upload">将预览图上传云端</button>
