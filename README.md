@@ -9,6 +9,6 @@
 # 热敏标签自定义和打印
 |图1|图2|
 |---|---|
-|![image](https://github.com/smallboxx/iQRCode/assets/127008146/934b5053-3423-4090-8e65-b63880380dfe)|![Uploading image.png…]()|
+|![image](https://github.com/smallboxx/iQRCode/assets/127008146/934b5053-3423-4090-8e65-b63880380dfe)|![image](https://github.com/smallboxx/iQRCode/assets/127008146/d287b59c-1a46-46f0-9b6c-466d3282ef24)|
 
 
